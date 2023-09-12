@@ -77,45 +77,52 @@ const MyCarousel = () => {
       showThumbs={false}
       showArrows={false}
     >
-      <Box width={'full'} height={'100vh'}>
+      <Box width={'full'} height={['50vh' ,'100vh']} >
         <Image src={img1}></Image>
         <Heading
           bg={'whiteAlpha.500'}
           color={'blackAlpha.600'}
           {...HeadingOptions}
+          fontSize={['20px' , ['40px']]}
         >
           Watch The Future
         </Heading>
       </Box>
 
-      <Box width={'full'} height={'100vh'}>
+      <Box width={'full'} height={['50vh' ,'100vh']} >
         <Image src={img2}></Image>
         <Heading
           bg={'blackAlpha.600'}
           color={'whiteAlpha.500'}
           {...HeadingOptions}
+          fontSize={['20px' , ['40px']]}
+
         >
           Future is Gaming
         </Heading>
       </Box>
 
-      <Box width={'full'} height={'100vh'}>
+      <Box width={'full'} height={['50vh' ,'100vh']} >
         <Image src={img3}></Image>
         <Heading
           bg={'blackAlpha.600'}
           color={'whiteAlpha.500'}
+          fontSize={['20px' , ['40px']]}
+
           {...HeadingOptions}
         >
           Gaming Is Everything
         </Heading>
       </Box>
 
-      <Box width={'full'} height={'100vh'}>
+      <Box width={'full'} height={['50vh' ,'100vh']} >
         <Image src={img4}></Image>
         <Heading
           bg={'blackAlpha.600'}
           color={'whiteAlpha.500'}
           {...HeadingOptions}
+          fontSize={['20px' , ['40px']]}
+
         >
           Night Made For Gamers
         </Heading>
