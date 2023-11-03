@@ -13,10 +13,10 @@ import { FaMoon, FaSun } from 'react-icons/fa';
       top={4}
       right={4}
       color="current"
-      onClick={toggleColorMode}
+      onClck={toggleColorMode}
       icon={<SwitchIcon />}
       {...props}
-      zIndex={'10'}
+      zIndex={'10'}i
     />
   );
 };
